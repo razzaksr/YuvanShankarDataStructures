@@ -1,4 +1,4 @@
-package data.structures.YuvanShankarDS;
+package data.structures.YuvanShankarDS.schemes;
 
 import java.util.Scanner;
 

@@ -1,0 +1,83 @@
+Tree:
+non linear: non sequentials
+
+Root
+edges
+left child
+right child
+index
+levels	>> no of hierarchy
+
+
+01234567
+Avengers:
+
+			a				root  level 0
+		|		|
+    v			 e			level 1
+	|	|	  |  |
+ n		 g	 e		 r		level 2
+ |
+s							level 3
+
+inorder: snvgaeer
+
+    uvan
+
+ cog	    zoho
+
+ds java c python
+
+inorder: ds cog java uvan c zoho python
+pre: uvan cog ds java zoho c python
+post: ds java cog c python zoho uvan
+
+
+A	root
+v	root.left
+e	root.right
+n	root.left.left
+g	root.left.right
+e	root.right.left
+r	root.right.right
+s	root.left.left.left
+
+
+Binary Tree
+Binary Search Tree(based on condition: left<root,right>root)
+
+
+insertion
+traverse:
+	inorder: left-root-right
+	pre: root-left-right
+	post: left-right-root
+search
+
+implementations:
+	array
+	Class and Objects
+
+
+class Node
+{
+int data
+Node next;
+}
+
+
+List:
+	Stack
+	LinkedList
+	Queue
+	Vector
+	ArrayList
+
+Set:
+	HashSet
+	TreeSet	
+
+Map:
+	Hashtable
+	HashMap
+	TreeMap

@@ -112,7 +112,7 @@ class Line
 		return init+1;
 		
 	}
-	
+	// nlogn
 	public void quick(int start,int end)
 	{
 		if(end>start)
